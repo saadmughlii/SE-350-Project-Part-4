@@ -1163,7 +1163,8 @@ input, select, textarea {
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
-			filter: blur(4px);
+			filter: blur(4px) brightness(30%);
+		
 			z-index: 1;
 		}
 
@@ -1360,10 +1361,11 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: block;
+					width: 10.5rem;
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: 3.25 0 0 0;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 1rem;
@@ -1660,3 +1662,19 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.material-symbols-outlined {
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 400,
+	'GRAD' 0,
+	'opsz' 24
+}
+
+img{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
